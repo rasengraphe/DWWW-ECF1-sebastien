@@ -1,5 +1,3 @@
-# DWWW-ECF1-sebastien
-ec1-afpa
 # DWWM-ECF1-Sebastien
 ec1-afpa
 

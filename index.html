@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival de Musique Électro</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo-img" src="img/favicon.png" alt="Logo du festival" />
+        </div>
+
+        <nav class="nav-bar">
+         
+            <a href="index.html" class="nav-bar__link">Accueil</a>
+            <a href="concerts.html" class="nav-bar__link">Concerts</a>
+            <a href="services.html" class="nav-bar__link">Services</a>
+            
+       
+        </nav>
+
+        <nav class="nav-bar-mobile">
+          <button class="nav-bar-mobile__button">
+              <img src="img/hamburger-menu-icon.svg" 
+                   alt="Menu mobile" 
+                   class="nav-bar-mobile__icon" />
+          </button>
+          <div class="nav-bar-mobile__container nav-bar-mobile__container--hidden">
+              <a href="index.html" class="nav-bar-mobile__link">Accueil</a>
+              <a href="concerts.html" class="nav-bar-mobile__link">Concerts</a>
+              <a href="services.html" class="nav-bar-mobile__link">Services</a>
+              
+          </div>
+      </nav>
+    </header>
+    <section class="hero">
+      <img src="img/festival-techno-la-teste-banniere.jpg" 
+           alt="Festival de musique électro - Vue principale" 
+           class="hero__image">
+  </section>
+
+<!-- Info -->
+  <section class="info">
+
+ 
+    <div class="info__header">
+        <img src="img/flame-svgrepo-com.svg" alt="" class="info__icon">
+        <h1 class="info__title">Rendez-vous du 𝟏5 au 17 Juin 2025 </h1>
+    </div>
+    <h2 class="info__subtitle">Pour le premier 𝐎𝐏𝐄𝐍 𝐀𝐈𝐑 électronique sur le
+      Bassin d’Arcachon au parc des expositions de La Teste-de-Buch : 𝟏𝟓𝐡 – 𝟎𝟏𝐡 !3 jours de musique électronique au cœur de la ville</h2>
+</section>
+
+
+<!-- Première section -->
+<section class="festival">
+    <div class="festival__content">
+        <div class="festival__text-content">
+            <h2 class="festival__title">Le festival</h2>
+            <h3 class="festival__subtitle">On ne vous avait pas menti !</h3>
+            <p class="festival__description">
+                Cette première édition s'annonce bouillante ! 
+                Top départ à partir de 15h pour une grande fiesta sous le 
+                soleil du Bassin d'Arcachon ! Au programme ? Un espace 
+                vert de 6000 m², une grande scène équipée et 
+                sonorisée par Marée Basse, de la bonne musique, des 
+                stands d'exposants locaux, bar et restauration sur place, 
+                et des activités durant toute la journée ! Et on a encore 
+                plein de surprises à te faire découvrir...
+            </p>
+        </div>
+        <div class="festival__image-container">
+            <img src="img/festival-techno-la-teste.jpg" alt="Affiche du festival avec programmation" class="festival__image">
+        </div>
+    </div>
+</section>
+
+<!-- Deuxième section -->
+<section class="banner">
+    <div class="banner__content">
+        <div class="banner__image-container">
+            <img src="img/illu-secondaire.jpg" alt="Logo note de musique" class="banner__logo">
+        </div>
+        <div class="banner__lines">
+            <img src="img/vague-large-ex.png" alt="" class="banner__line banner__line--left">
+            <img src="img/vague-large-ex.png" alt="" class="banner__line banner__line--right">
+        </div>
+    </div>
+</section>
+
+<section class="artists">
+  <h2 class="artists__title">The Artists</h2>
+   <!-- Repeat for each artist -->
+  <div class="artists__grid">
+      <div class="artist-card">
+          <div class="artist-card__image-container">
+              <img src="img/limperatrice.jpeg" alt="L'impératrice" class="artist-card__image">
+              <div class="artist-card__dots">
+                  <span class="artist-card__dot artist-card__dot--pink"></span>
+                  <span class="artist-card__dot artist-card__dot--cyan"></span>
+              </div>
+          </div>
+          <h3 class="artist-card__name">L'impératrice</h3>
+      </div>
+      <!-- Repeat for each artist -->
+      <div class="artist-card">
+          <div class="artist-card__image-container">
+              <img src="img/Kavinsky_2.jpg" alt="Kavinsky" class="artist-card__image">
+              <div class="artist-card__dots">
+                  <span class="artist-card__dot artist-card__dot--pink"></span>
+                  <span class="artist-card__dot artist-card__dot--cyan"></span>
+              </div>
+          </div>
+          <h3 class="artist-card__name">Kavinsky</h3>
+      </div>
+      <!-- Continue for other artists -->
+      <div class="artist-card">
+        <div class="artist-card__image-container">
+            <img src="img/M83jpeg.jpeg" alt="Kavinsky" class="artist-card__image">
+            <div class="artist-card__dots">
+                <span class="artist-card__dot artist-card__dot--pink"></span>
+                <span class="artist-card__dot artist-card__dot--cyan"></span>
+            </div>
+        </div>
+        <h3 class="artist-card__name">M83</h3>
+    </div>
+     <!-- Continue for other artists -->
+     <div class="artist-card">
+      <div class="artist-card__image-container">
+          <img src="img/Wax-Taylor.jpeg" alt="Kavinsky" class="artist-card__image">
+          <div class="artist-card__dots">
+              <span class="artist-card__dot artist-card__dot--pink"></span>
+              <span class="artist-card__dot artist-card__dot--cyan"></span>
+          </div>
+      </div>
+      <h3 class="artist-card__name">Wax Taylor</h3>
+  </div>
+   <!-- Continue for other artists -->
+   <div class="artist-card">
+    <div class="artist-card__image-container">
+        <img src="img/Bonobo.jpeg" alt="Kavinsky" class="artist-card__image">
+        <div class="artist-card__dots">
+            <span class="artist-card__dot artist-card__dot--pink"></span>
+            <span class="artist-card__dot artist-card__dot--cyan"></span>
+        </div>
+    </div>
+    <h3 class="artist-card__name">Bonobo</h3>
+</div>
+ <!-- Continue for other artists -->
+ <div class="artist-card">
+  <div class="artist-card__image-container">
+      <img src="img/Chinese-Man.jpeg" alt="Kavinsky" class="artist-card__image">
+      <div class="artist-card__dots">
+          <span class="artist-card__dot artist-card__dot--pink"></span>
+          <span class="artist-card__dot artist-card__dot--cyan"></span>
+      </div>
+  </div>
+  <h3 class="artist-card__name">Chinese Man</h3>
+</div>
+
+  </div>
+</section>
+
+
+<!-- Equalizer -->
+<section class="equalizer" style="position: relative; overflow: hidden; background: transparent;">
+    <video id="backgroundVideo" src="img/1630-148614385_small.mp4" muted loop class="equalizer__video" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;"></video>
+    <div class="equalizer__content">
+        <div class="equalizer__player">
+            <!-- Point cyan à gauche -->
+            <div class="equalizer__dots-left">
+                <div class="equalizer__dot equalizer__dot--pink"></div>
+                <div class="equalizer__dot equalizer__dot--cyan"></div>
+            </div>
+
+            <!-- Bouton play -->
+            <button class="equalizer__play-btn" id="playBtn">▶</button>
+            <audio id="audioPlayer" src="mp3/loop.mp3"></audio>
+            
+            
+          
+          <!-- Égaliseur supérieur -->
+          <div class="equalizer__bars">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+          </div>
+
+          <!-- Égaliseur inférieur -->
+          <div class="equalizer__bars equalizer__bars--reverse">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+          </div>
+      </div>
+
+       <!-- Point rose à droite -->
+       <div class="equalizer__dots-right">
+        <div class="equalizer__dot equalizer__dot--cyan"></div>
+        <div class="equalizer__dot equalizer__dot--pink"></div>
+    </div>
+</div>
+
+</section>
+
+
+
+<footer class="footer">
+    <div class="footer__content">
+        <p class="footer__text">Electro music festival at the marina of La Teste</p>
+        
+        <div class="footer__bottom">
+            <nav class="footer__nav">
+                <a href="index.html" class="footer__link">Accueil</a>
+                <a href="concerts.html" class="footer__link">Programme</a>
+                <a href="index.html#artists" class="footer__link">Artistes</a>
+                <a href="services.html" class="footer__link">Infos pratiques</a>
+                <a href="services.html#billetterie" class="footer__link">Billetterie</a>
+            </nav>
+            
+            <button class="footer__scroll-top" aria-label="Scroll to top">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 4L4 12H9V20H15V12H20L12 4Z" fill="currentColor"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+</footer>
+<script src="js/components.js"></script>
+    <script src="js/audioController.js"></script>
+<script src="js/menu.js"></script> <!-- ... reste du code ... -->
+<script src="js/scroll.js"></script>
+</body>
+</html>

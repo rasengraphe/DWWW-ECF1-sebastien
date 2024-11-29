@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concerts - Festival de Musique Électro</title>
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo-img photo" src="img/favicon.png" alt="Logo du festival" />
+        </div>
+
+        <nav class="nav-bar">
+            <a href="index.html" class="nav-bar__link">Accueil</a>
+            <a href="concerts.html" class="nav-bar__link">Concerts</a>
+            <a href="services.html" class="nav-bar__link">Services</a>
+        </nav>
+
+        <nav class="nav-bar-mobile">
+            <button class="nav-bar-mobile__button">
+                <img src="img/hamburger-menu-icon.svg" 
+                     alt="Menu mobile" 
+                     class="nav-bar-mobile__icon" />
+            </button>
+            <div class="nav-bar-mobile__container nav-bar-mobile__container--hidden">
+                <a href="index.html" class="nav-bar-mobile__link">Accueil</a>
+                <a href="concerts.html" class="nav-bar-mobile__link">Concerts</a>
+                <a href="services.html" class="nav-bar-mobile__link">Services</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="programmation">
+        <h2 class="programmation__title">Programmation du soir</h2>
+        <div class="programmation__filters">
+            <button class="programmation__filter-btn">Tous</button>
+            <button class="programmation__filter-btn">Jour 1</button>
+            <button class="programmation__filter-btn">Jour 2</button>
+            <button class="programmation__filter-btn">Jour 3</button>
+        </div>
+        <div id="concerts-container" class="container">
+            <div class="card">
+                <img class="card-image" src="img/limperatrice.jpeg" alt="Concert 1" />
+                <!-- ... autres éléments de la carte ... -->
+            </div>
+            <!-- ... autres cartes ... -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__content">
+            <p class="footer__text">Electro music festival at the marina of La Teste</p>
+            
+            <div class="footer__bottom">
+                <nav class="footer__nav">
+                    <a href="index.html" class="footer__link">Accueil</a>
+                    <a href="concerts.html" class="footer__link">Programme</a>
+                    <a href="index.html#artists" class="footer__link">Artistes</a>
+                    <a href="services.html" class="footer__link">Infos pratiques</a>
+                    <a href="services.html#billetterie" class="footer__link">Billetterie</a>
+                </nav>
+                
+                <button class="footer__scroll-top" aria-label="Scroll to top">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 4L4 12H9V20H15V12H20L12 4Z" fill="currentColor"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/concerts.js"></script>
+    <script src="js/audioController.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/scroll.js"></script>
+</body>
+</html>

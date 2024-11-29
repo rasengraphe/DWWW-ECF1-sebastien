@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Festival de Musique Électro</title>
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo-img" src="img/favicon.png" alt="Logo du festival" />
+        </div>
+
+        <nav class="nav-bar">
+         
+            <a href="index.html" class="nav-bar__link">Accueil</a>
+            <a href="concerts.html" class="nav-bar__link">Concerts</a>
+            <a href="services.html" class="nav-bar__link">Services</a>
+            
+       
+        </nav>
+
+        <nav class="nav-bar-mobile">
+          <button class="nav-bar-mobile__button">
+              <img src="img/hamburger-menu-icon.svg" 
+                   alt="Menu mobile" 
+                   class="nav-bar-mobile__icon" />
+          </button>
+          <div class="nav-bar-mobile__container nav-bar-mobile__container--hidden">
+              <a href="index.html" class="nav-bar-mobile__link">Accueil</a>
+              <a href="concerts.html" class="nav-bar-mobile__link">Concerts</a>
+              <a href="services.html" class="nav-bar-mobile__link">Services</a>
+              
+          </div>
+      </nav>
+    </header>
+
+    <main>
+        <section class="services">
+            <h2 class="services__title">Nos Services</h2>
+            <div class="services__list">
+                <div class="services__item">
+                    <button class="services__item-header">
+                        <h3 class="services__item-title">Bar et Restauration</h3>
+                        <span class="services__item-icon">+</span>
+                    </button>
+                    <div class="services__item-content">
+                        <p class="services__item-description">Au festival Teste de Bush, profitez d'une expérience culinaire exceptionnelle ! Plusieurs bars vous attendent avec une sélection de cocktails, bières artisanales et boissons sans alcool pour étancher votre soif. Les stands de restauration proposent des plats variés, des spécialités locales aux options végétariennes et vegans, préparés avec des ingrédients de saison.
+
+                            Des food trucks ajoutent une touche internationale, offrant une diversité de saveurs à explorer. Installez-vous dans les espaces détente pour savourer vos mets tout en partageant vos coups de cœur musicaux avec vos amis. Régalez-vous et laissez-vous emporter par l'ambiance festive du festival !.</p>
+                        <img src="img/buvette.jpg" alt="Bar et restauration" class="services__item-image">
+                    </div>
+                </div>
+                
+                <div class="services__item">
+                    <button class="services__item-header">
+                        <h3 class="services__item-title">Animations</h3>
+                        <span class="services__item-icon">+</span>
+                    </button>
+                    <div class="services__item-content">
+                        <p class="services__item-description">Le festival Teste de Bush n'est pas seulement une célébration musicale, c'est une véritable expérience immersive pour tous les festivaliers ! Cette année, préparez-vous à vivre une multitude d'animations qui vous plongeront au cœur d'une atmosphère festive et conviviale..</p>
+                        <img src="img/annimation.jpg" alt="Animations" class="services__item-image">
+                    </div>
+                </div>
+        
+                <div class="services__item">
+                    <button class="services__item-header">
+                        <h3 class="services__item-title">Accès festival</h3>
+                        <span class="services__item-icon">+</span>
+                    </button>
+                    <div class="services__item-content access-layout">
+                        <!-- Container for the text columns -->
+                        <div class="services__text-columns">
+                            <!-- First column -->
+                            <div class="services__text-column">
+                                <p>Le festival se déroule au [indiquer la localisation précise : nom du lieu ou adresse].</p>
+                
+                                <h4 class="services__subtitle">Accès en voiture</h4>
+                                <p>Si vous venez en voiture, voici quelques indications :</p>
+                                <ul>
+                                    <li>Depuis [ville ou région voisine] : Prenez la route [indiquer la route ou l'autoroute]</li>
+                                    <li>Stationnement : Un parking sera disponible à proximité du site.</li>
+                                </ul>
+                
+                                <h4 class="services__subtitle">Transports en commun</h4>
+                                <p>Pour ceux qui préfèrent utiliser les transports en commun :</p>
+                                <ul>
+                                    <li>Train : La gare la plus proche est [nom de la gare].</li>
+                                    <li>Bus : Des lignes de bus [indiquer les numéros de lignes]</li>
+                                </ul>
+                            </div>
+                
+                            <!-- Second column -->
+                            <div class="services__text-column">
+                                <h4 class="services__subtitle">Covoiturage</h4>
+                                <p>Nous encourageons le covoiturage pour réduire l'empreinte carbone.</p>
+                                
+                                <h4 class="services__subtitle">Hébergement</h4>
+                                <p>Si vous souhaitez prolonger votre séjour, plusieurs options d'hébergement sont disponibles.</p>
+                            </div>
+                        </div>
+                
+                        <!-- Container for the image at the bottom -->
+                        <div class="services__image-container">
+                            <img src="img/Plan.png" alt="Plan d'accès">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <button class="services__item-header">
+                        <h3 class="services__item-title">Billetterie</h3>
+                        <span class="services__item-icon">+</span>
+                    </button>
+                    <div class="services__item-content">
+                        <p class="services__item-description">
+                            Réservez dès maintenant vos billets pour le festival Teste de Bush ! Plusieurs options s'offrent à vous : pass journée, pass week-end complet ou pass VIP avec accès aux espaces privilégiés. La billetterie en ligne est ouverte 24h/24, et des points de vente physiques sont également disponibles dans les commerces partenaires de la région. N'attendez pas, les premiers arrivés seront les premiers servis, et les tarifs early-bird sont disponibles en quantité limitée !
+                        </p>
+                        <img src="img/mockup_concert.webp" alt="Billetterie" class="services__item-image">
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <p class="footer__text">Electro music festival at the marina of La Teste</p>
+            
+            <div class="footer__bottom">
+                <nav class="footer__nav">
+                    <a href="index.html" class="footer__link">Accueil</a>
+                    <a href="concerts.html" class="footer__link">Programme</a>
+                    <a href="index.html#artists" class="footer__link">Artistes</a>
+                    <a href="services.html" class="footer__link">Infos pratiques</a>
+                    <a href="services.html#billetterie" class="footer__link">Billetterie</a>
+                </nav>
+                
+                <button class="footer__scroll-top" aria-label="Scroll to top">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 4L4 12H9V20H15V12H20L12 4Z" fill="currentColor"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+<<<<<<< HEAD
+   
+=======
+    <script src="js/components.js"></script>
+>>>>>>> 59826ab9b4793da3852315dc2a16f5c66b319f64
+    <script src="js/audioController.js"></script>
+<script src="js/menu.js"></script> <!-- ... reste du code ... -->
+<script src="js/services.js"></script>
+<script src="js/scroll.js"></script>
+</body>
+</html>
