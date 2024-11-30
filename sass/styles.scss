@@ -413,6 +413,7 @@ body {
     }
     .artist-card__name {
         font-size: 2em; /* Légèrement plus petit sur tablette */
+        margin-top: 8em;
     }
     
     .artists__title,
@@ -451,6 +452,11 @@ body {
 
     .artists__grid {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .artist-card__name {
+       
+        margin-top: 6em;
+        
     }
 
     .hero__image {
