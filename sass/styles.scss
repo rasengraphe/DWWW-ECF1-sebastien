@@ -328,7 +328,7 @@ body {
 .artists__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5em;
+    gap: 10em;
     padding: 0 1em;
 }
 
@@ -391,7 +391,7 @@ body {
     color: #333;
     text-align: left;
     padding-left: 0.5em;
-    margin-top: 1em;
+    margin-top: 3em;
     letter-spacing: 0.02em; /* Added letter spacing */
 }
 
