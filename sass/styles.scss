@@ -391,7 +391,7 @@ body {
     color: #333;
     text-align: left;
     padding-left: 0.5em;
-    margin-top: 3.1em;
+    margin-top: 3em;
     letter-spacing: 0.02em; /* Added letter spacing */
 }
 
@@ -399,6 +399,9 @@ body {
    Media Queries
    ========================== */
 @media (width < 1200px) {
+    .artists__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
     .festival__title {
         font-size: 90px;
     }
@@ -445,6 +448,11 @@ body {
 }
 
 @media (width < 768px) {
+
+    .artists__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     .hero__image {
         max-height: 400px;
     }
