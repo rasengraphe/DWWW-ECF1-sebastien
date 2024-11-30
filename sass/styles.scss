@@ -406,7 +406,7 @@ body {
 
 @media (width < 992px) {
     .artists__grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
     .artist-card__name {
         font-size: 2em; /* Légèrement plus petit sur tablette */
